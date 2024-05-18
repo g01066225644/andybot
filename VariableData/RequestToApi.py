@@ -6,7 +6,7 @@ import xmltodict
 
 class DataGo:
     def __init__(self):
-        self._api_key = 'l3i6oyfhyEYniVFrkI6NMw7INERoMDfZf9L4wVAqARS/C1OZuo3FCmY8rmX8ksBVr/zlyYayhBm3qbFBzhZecw=='
+        self._api_key = ''
         self._dust_url = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty'
         self._weather_url = 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst'
         self._holiday_url = 'http://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo'
